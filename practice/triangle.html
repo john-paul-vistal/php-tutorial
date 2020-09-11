@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle</title>
+</head>
+
+<body>
+    <script>
+        // let star = "";
+        // let space = '\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0';
+        // let counter = space.length;
+        // for (i = 0; i < 13; i++) {
+        //     star += " * ";
+        //     if (i == 0) {
+        //         console.log(space + '\xa0' + star);
+        //     } else {
+        //         console.log(space.slice(0, counter) + '' + star);
+        //     }
+        //     counter--;
+        // }
+
+        // var a = '';
+        // var n = 5;
+        // var m = (n - 1);
+        // for (i = 1; i <= n; i++) {
+        //     a = a.trim();
+        //     a = ' '.repeat(m) + a + (i > 1 ? ' ' : '') + '*';
+        //     console.log(a);
+        //     m--;
+        // }
+
+
+
+        // for (let i = 0; i < 13; i++) {
+        //     var output = '';
+        //     for (let j = 0; j < 13 - i; j++) {
+        //         output += ' ';
+        //     }
+        //     for (let k = 0; k <= i; k++) {
+        //         output += '* ';
+        //     }
+        //     console.log(output);
+        // }
+
+
+        for (let x = 0; x < 13; x++) {
+            var output = '';
+            for (let y = 0; y < 13 - x; y++) {
+                output += ' ';
+            }
+            for (let z = 0; z <= x; z++) {
+                output += '* ';
+            }
+            console.log(output);
+        }
+    </script>
+
+</body>
+
+</html>
